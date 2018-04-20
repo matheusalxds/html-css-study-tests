@@ -1,0 +1,32 @@
+ul { 
+  list-style-type: none;  
+}
+
+ul li {  
+  width: 100px;
+  padding: 10px 0;
+  text-align: center;
+  border: 1px solid #b3b3b3;
+  transition: all 0.3s ease-in-out;
+}
+
+ul li:first-child {
+  border-radius: 10px 10px 0 0;
+}
+
+ul li:last-child {
+  border-radius: 0 0 10px 10px;
+}
+
+ul li:first-child:hover {
+  border-radius: 10px 10px 10px 0;
+}
+
+ul li:last-child:hover {
+  border-radius: 0px 10px 10px 10px;
+}
+
+ul li:hover {
+  width: 120px;
+  border-radius: 0 10px 10px 0;
+}
