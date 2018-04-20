@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 ul { 
   list-style-type: none;  
 }
@@ -29,4 +34,9 @@ ul li:last-child:hover {
 ul li:hover {
   width: 120px;
   border-radius: 0 10px 10px 0;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
 }
